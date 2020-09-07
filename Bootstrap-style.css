@@ -1,0 +1,70 @@
+body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+header {
+    display: flex;
+    flex-basis: 100%;
+    background-color: #343A40;
+    height: auto;
+}
+.navbarmenu {
+    display: flex;
+    justify-content: flex-start;  
+    padding-top: 19px;
+    padding-bottom: 18px;
+}
+.navbarmenu a {
+    color: #FFFFFF;
+    
+}
+.navbarmenu a:hover {
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.nlk {
+    font-size: 20px;
+    line-height: 23px;
+}
+.portfolio {
+    display: flex;
+    flex-basis: 100%;
+    color: #212529;
+    background-color: #E9ECEF;
+}
+.portfolio h1 {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    padding-top: 64px;
+    padding-bottom: 8px;
+}
+.card-header {
+    font-weight: normal;
+}
+.card-text {
+    font-size: 16px;
+    line-height: 19px;
+}
+.table {
+    margin-top: 32px;
+    margin-left: 55px;
+    margin-bottom: 73px;
+}
+.link-blue {
+    color: #007BFF;
+}
+footer {
+    margin-top: 73px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 55px;
+    background-color: #F5F5F5;
+    color: #6C757D;
+}
